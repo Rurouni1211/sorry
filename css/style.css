@@ -1,0 +1,109 @@
+html, body{
+	margin: 0; 
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	background-color: grey;
+}
+
+.data{
+	font-family: Poppings;
+	color:#000;
+	letter-spacing: 12px;
+	font-weight: 600;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.fade-in{
+	animation: fadeIn 30s;
+	position: absolute;
+	top: 20%;
+	left: 45%;
+	font-style: bold;
+	font-size: 24px;
+}
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.fa-heart-broken{
+		font-size: 50px;
+		color:red;
+		position: absolute;
+		bottom: -100px;
+		animation: heart 5s linear infinite; 
+	}
+	@keyframes heart{
+		0%{
+			opacity: 0; 
+			color: blue;
+		}
+		50%{
+			opacity: 1;
+			color: red;
+		}
+		100%{
+			bottom: 100%;
+			opacity: 0;
+			color: yellow;
+		}
+	}
+	.fa-heart-broken:nth-child(2n){
+		left: 10%;
+		animation-delay: 1s;
+	}
+	.fa-heart-broken:nth-child(3n){
+		left: 20%;
+		animation-delay: 1.6s;
+	}
+	.fa-heart-broken:nth-child(4n){
+		left: 60%;
+		animation-delay: 1.1s;
+	}
+	.fa-heart-broken:nth-child(5n){
+		left: 40%;
+		animation-delay: 2.5s;
+	}
+	.fa-heart-broken:nth-child(6n){
+		left: 80%;
+		animation-delay: 1.8s;
+	}
+	.fa-heart-broken:nth-child(7n){
+		left: 45%;
+		animation-delay: 1.2s;
+	}
+	.fa-heart-broken:nth-child(8n){
+		left: 90%;
+		animation-delay: 3s;
+	}
+	.fa-heart-broken:nth-child(9n){
+		left: 95%;
+		animation-delay: 4s;
+	}
+	.fa-heart-broken:nth-child(10n){
+		left: 30%;
+		animation-delay: 1.8s;
+	}
+	.fa-heart-broken:nth-child(11n){
+		left: 20%;
+		animation-delay: 2s;
+	}
+	.fa-heart-broken:nth-child(12n){
+		left: 10%;
+		animation-delay:.6s;
+	}
+	.fa-heart-broken:nth-child(13n){
+		left: 25%;
+		animation-delay:3s;
+	}
+	.fa-heart-broken:nth-child(14n){
+		left: 65%;
+		animation-delay: 3.8s;
+	}
